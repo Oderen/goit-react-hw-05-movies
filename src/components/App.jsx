@@ -7,10 +7,12 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
       }}
     >
       React homework template
     </div>
   );
 };
+
+// goit - react - hw - 05 - movies;
