@@ -1,0 +1,24 @@
+.movieDetailsContainer {
+  display: flex;
+}
+
+.image {
+  display: block;
+  width: 200px;
+  height: 300px;
+
+  margin-top: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
+
+  background-color: antiquewhite;
+  border: 1px solid black;
+}
+
+.addInfoContainer {
+  margin-left: 30px;
+}
+
+.genresItem {
+  margin-right: 10px;
+}

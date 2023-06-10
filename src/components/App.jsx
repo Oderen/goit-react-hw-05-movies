@@ -3,13 +3,13 @@ import { lazy } from 'react';
 // import Home from '../pages/Home';
 // import Movies from 'pages/Movies';
 // import MovieDetails from 'pages/MovieDetails';
-import Layout from './Layout';
+import Layout from './Layout/Layout';
 // import Cast from './Cast';
 // import Reviews from './Reviews';
 
-const Home = lazy(() => import('../pages/Home'));
+const Home = lazy(() => import('../pages/Home/Home'));
 const Movies = lazy(() => import('../pages/Movies'));
-const MovieDetails = lazy(() => import('../pages/MovieDetails'));
+const MovieDetails = lazy(() => import('../pages/MovieDetails/MovieDetails'));
 const Cast = lazy(() => import('./Cast'));
 const Reviews = lazy(() => import('./Reviews'));
 

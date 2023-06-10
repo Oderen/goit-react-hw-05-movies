@@ -1,11 +1,12 @@
 import { NavLink, Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
+import css from './Layout.module.css';
 
 const Layout = () => {
   return (
     <div>
-      <header>
-        <ul>
+      <header className={css.optionsLine}>
+        <ul className={css.options}>
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
